@@ -29,4 +29,10 @@ Notebooks
    :image: _static/riemannian_torus.png
    :link: notebooks/2d_riemannian_flow_matching_flat_torus.html
 
+.. customcarditem::
+   :header: Hessian Flow Matching (Simplex)
+   :card_description: Categorical flow matching with Bregman-potential geometry on the simplex
+   :image: _static/hessian_simplex.png
+   :link: notebooks/simplex_hessian_flow_matching.html
+
 .. customcardend::

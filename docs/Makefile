@@ -15,6 +15,7 @@ links:
 	mkdir -p source/notebooks && ln -sfn $(ROOT_DIR)/../examples/2d_discrete_flow_matching.ipynb source/notebooks/2d_discrete_flow_matching.ipynb
 	mkdir -p source/notebooks && ln -sfn $(ROOT_DIR)/../examples/2d_riemannian_flow_matching_flat_torus.ipynb source/notebooks/2d_riemannian_flow_matching_flat_torus.ipynb
 	mkdir -p source/notebooks && ln -sfn $(ROOT_DIR)/../examples/2d_riemannian_flow_matching_sphere.ipynb source/notebooks/2d_riemannian_flow_matching_sphere.ipynb
+	mkdir -p source/notebooks && ln -sfn $(ROOT_DIR)/../examples/simplex_hessian_flow_matching.ipynb source/notebooks/simplex_hessian_flow_matching.ipynb
 	ln -sfn $(ROOT_DIR)/../assets/teaser.png  source/_images/teaser.png
 
 # Put it first so that "make" without argument is like "make help".

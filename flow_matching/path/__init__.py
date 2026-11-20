@@ -6,9 +6,11 @@
 
 from .affine import AffineProbPath, CondOTProbPath
 from .geodesic import GeodesicProbPath
+from .hessian import HessianProbPath
 from .mixture import MixtureDiscreteProbPath
 from .path import ProbPath
 from .path_sample import DiscretePathSample, PathSample
+from .smoothing import DirichletSmoothing, LabelSmoothing
 
 
 __all__ = [
@@ -17,6 +19,9 @@ __all__ = [
     "CondOTProbPath",
     "MixtureDiscreteProbPath",
     "GeodesicProbPath",
+    "HessianProbPath",
+    "LabelSmoothing",
+    "DirichletSmoothing",
     "PathSample",
     "DiscretePathSample",
 ]

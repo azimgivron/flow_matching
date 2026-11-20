@@ -6,6 +6,7 @@
 
 from .categorical_sampler import categorical
 from .model_wrapper import ModelWrapper
+from .simplex import project_interior, project_simplex
 from .utils import expand_tensor_like, gradient, unsqueeze_to_match
 
 __all__ = [
@@ -14,4 +15,6 @@ __all__ = [
     "gradient",
     "categorical",
     "ModelWrapper",
+    "project_simplex",
+    "project_interior",
 ]

@@ -17,6 +17,22 @@ Probability Paths
    CondOTProbPath
    MixtureDiscreteProbPath
    GeodesicProbPath
+   HessianProbPath
+
+
+Label Smoothing
+--------------------------------
+
+Maps categorical data into the open simplex before training a :class:`HessianProbPath`
+(see also :doc:`flow_matching.path.potential`).
+
+.. autosummary::
+   :toctree: generated
+   :nosignatures:
+   :template: classtemplate.rst
+
+   LabelSmoothing
+   DirichletSmoothing
 
 
 Path Sample
